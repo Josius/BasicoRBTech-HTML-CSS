@@ -1,2 +1,2 @@
 # BasicoRBTech-HTML-CSS
-Aulas de frontend
+Aulas básicas de frontend do rbtech
