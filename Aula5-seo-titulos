@@ -1,0 +1,24 @@
+<!-- TAG DE CABECALHO E METATAG -->
+
+<!doctype html>
+<html>
+	<head>
+		<title>Nome do site - Descrição do site (slogan)</title>
+		<meta charset="utf-8" />
+		<!-- METATAG DE DESCRIÇÃO DA PÁGINA ABAIXO-IMPORTANTÍSSIMA -->
+		<meta name="description" content="Descrição completa do conteúdo limitada a 156 caracteres" />
+		<!-- METATAG DE PALAVRAS CHAVES PARA BUSCA DA PÁGINA, USAR PALAVRAS COMPACTAS E QUE POSSUAM RELAÇÃO COM O CONTEÚDO, ABAIXO -->
+		<meta name="keywords" content="html, titulos, cabeçalhos, seo, meta tags, curso" />
+		<!-- METATAG DO AUTOR -->
+		<meta name="author" content="Josimar Amaro de Sousa" />
+	</head>
+	
+	<body>
+		<h1>Título nível 1 - geralmente um por página</h1>
+		<h2>Título nível 2 - de importância secundária</h2>
+		<h3>Título nível 3 - assim sucessivamente...</h3>
+		<h4>Título nível 4 - assim sucessivamente...</h4>
+		<h5>Título nível 5 - assim sucessivamente...</h5>
+		<h6>Título nível 6 - assim sucessivamente...</h6>
+	</body>
+</html>
