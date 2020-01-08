@@ -1,0 +1,50 @@
+<!-- Links e Img -->
+
+<!doctype html>
+<html>
+	<head>
+		<title> </title>
+		<meta charset="utf8" />
+	</head>
+	
+	<body>
+		<blockquote><!-- usado para citações; usado com CSS para visualizar melhor -->
+			<p> Texto aleatório para verificação da citação dentro do blockquote</p>
+		</blockquote>
+		<p><a href="Aula3-Listas.html">Texto 1 do link</a></p><!-- forma 1 de usar LINKS para outros sites, locais, etc..DESTA FORMA, O LINK LEVA A OUTRO END USANDO A MESMA PAG  -->
+		<p><a href="Aula3-Listas.html" target="_blank">Texto 2 do link</a></p><!-- Com _blank abre uma nova aba ao clicar no link -->
+		<p><a href="youtube.com">Texto 3 do link</a></p><!-- Este não funcionou como esperado(direcionando para o youtube) -->
+		<!-- <a name="">Texto do link</a>forma 2 de usar LINKS para outros sites, locais, etc.. -->
+		<p><a href="Aula7-pagina1.html">Página 1</a> | <a href="Aula7-pagina2.html">Página 2</a></p><!-- Este vai funcionar pq os arquivos estão no mesmo diretório/pasta que o arquivo Aula7, se o arquivo estiver em outro diretório, eu preciso especificar o caminho completo de onde esteja esse arquivo, como exemplo abaixo -->
+		<p><a href="pages/Aula7-pagina3.html">Página 3</a> | <a href="Aula7-pagina4.html">Página 4</a></p><!-- Este vai funcionar somente o link para a Página 3, pq esta com o endereco completo -->
+		<!-- se o arquivo estiver dentro de um diretório dentro de outro diretório, é necessário descrever o caminho completo; por exemplo 'dir1/dir2/dir3...dirX/Arquivo.html' -->
+		
+		<p><a href="https://pt.wikipedia.org/wiki/Ilha_de_Wolf" target="_blank" title="acesse o site wikipedia.">Usando um url: Ilha de Wolf - Wikipedia. </a></p><p>Acima, como estamos usando um site externo, é interessante add ' target="_blank"' para abrir uma em uma nova aba o link. Boas práticas. Outra tag interessante é a 'title=""' que permite, quando colocarmos a seta do mouse sobre o link, aparece a mensagem add na tag title. Melhora a navegabilidade no site. Também é possível colocar a tag title em imagens.</p>
+		
+		
+		<!-- Inserindo uma imagem -->
+		<p>Imagem em jpeg não funciona,não sei pq.
+			<img src="img/wolf.jpeg" /> <!-- Imagem em jpeg não funciona-->
+		</p>
+		<!-- Por padrão, a imagem é exibida no tam original, mas é possível alterar -->
+		<p>
+			Por padrão, a imagem é exibida no tam original, mas é possível alterar, ver abaixo desta img
+			<img src="img/wolf2.png" /> <!-- Imagem em png funciona -->
+		</p>
+		<p>
+			Imagem alterada com o atributo 'width="100"' -> 
+			<img src="img/wolf2.png" width="100"/> 
+			Mas isso é considerado errado, o correto é usar CSS para alterar o tamanho das imagens. Isso porque desta forma estaremos carregando uma img grande que pode deixar o carregamento mais lento sendo exibida em um tamanho reduzido. O ideal é redimensionar a imagem antes de upá-la.
+		</p>
+		<p>
+			É obrigatório ter a tag 'alt="icone html"', seu uso pode ser quando a imagem estiver carregando ela vai aparecer no local da img, ou quando for especionar elemento ou para ser usada nos motores de busca, como google.
+			<img src="img/iconeHtml.png" alt="icone html"/> 
+		</p>
+		<p>
+			Usando uma img com url
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Galapagos_archipelago_250m.jpg/190px-Galapagos_archipelago_250m.jpg" alt="ilha de wolf da wikipedia"/> 
+			Porém é uma prática ilegal e anti-ética, não se deve utilizar url de outros sites no seu site, ou seja, não se deve fazer hotlink
+		</p>
+		
+	</body>
+</html>
