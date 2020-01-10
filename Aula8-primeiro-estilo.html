@@ -1,0 +1,40 @@
+<!-- CSS -->
+<!-- Existem 3 formas de utilizar o CSS; duas não indicadas e uma que é a padrão -->
+<!-- 3ª FORMA E MAIS CORRETA: é colocar o seu estilo, suas modificações em um arquivo externo e linkar esse estilo dentro da sessão head do site. Este arquivo externo tem que ser .css e não .html -->
+
+<!doctype html>
+<html>
+	<head>
+		<title>Título da Página</title>
+		<meta charset="utf-8" />
+		<!-- 3ª FORMA -->
+		<link rel="stylesheet" type="text/css" href="Aula8-estilo.css" />
+		
+		<!-- 2ª FORMA, MAS AINDA NÃO É A INDICADA DE SE FAZER -->
+		<!-- Uma forma de resolver o problema do 1º caso é criar uma tag style no cabeçalho, na tag head. Ou seja, ao criarmos tags para alteração no head, estamos alterando as todas as referidas tags, pois é alterado todo o documento -->
+		<!--
+		<style type="text/css">
+			a{
+				color: red; 
+				text-decoration: none;
+				font-size: 18px;
+			}
+			h1{
+				font-family: helvetica, sans-serif;
+			}
+		</style>
+		-->
+	</head>
+	<body>
+		<h1>Meu primeiro estilo CSS</h1>
+		<!--1ª - IN LINE STYLE, OU ESTILO EM LINHA:
+		Colocamos o atributo stile dentro da tag que queremos estilizar 
+		Porem, ao colocar assim, somente a linha com o atributo será alterado, as demais não; ou seja, não é proveitoso para várias linhas. Somente para uma alteração momentânea.-->
+		<!--
+		<p><a href="Aula3-Listas.html" style="color: red; text-decoration: none;" >Link de exemplo</a></p>
+		<p><a href="Aula3-Listas.html" >Segundo link</a></p>
+		-->
+		<p><a href="Aula3-Listas.html">Link de exemplo</a></p>
+		<p><a href="Aula3-Listas.html">Segundo link</a></p>
+	</body>
+</html>

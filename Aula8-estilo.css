@@ -1,0 +1,14 @@
+a{
+	color: red; 
+	text-decoration: none;
+	font-size: 18px;
+}
+h1{
+	font-family: helvetica, sans-serif;
+}
+/*É CSS, folha de estilo em cascata porque a leitura é feita de cima para baixo, ou seja, o que estiver no final vai sobreescrever o que estiver no começo.
+EXEMPLO ABAIXO:
+*/
+a{
+	color: yellow;
+}
