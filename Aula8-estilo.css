@@ -12,3 +12,19 @@ EXEMPLO ABAIXO:
 a{
 	color: yellow;
 }
+/*USANDO UMA ID*/
+#segundo{
+	color: orange;
+}
+/*USANDO UMA CLASSE*/
+.link{
+	color: green;
+}
+/* 'a.link' para alterar somente os 'a ref'*/
+a.link{
+	color: red;
+}
+/*'body p a.link' para alterar somente os 'a's' que estiverem no body p' */
+body p a.link{
+	color: blue;
+}
