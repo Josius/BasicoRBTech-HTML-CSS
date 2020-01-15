@@ -1,0 +1,26 @@
+<!-- FORMULÁRIOS - Forma de interatividade entre o usuário e o site onde add informações para o site -->
+
+<!doctype html>
+<html>
+	<head>
+		<title>Trabalhando com formulários</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="Aula10-estilo.css" />
+	</head>
+	
+	<body>
+		<!--Com a action em branco, as informações são enviadas para a própria pág-->
+		<form action="" method="get"> <!-- O method pode ser 'post' ou 'get' -->
+			<label for="nome">(feito por uma label)Nome:</label>
+			<input id="nome"type="text" placeholder="Digite seu nome" name="nome" />
+			<label for="opcao">Vc gostou do site?</label>
+			<input id="opcao" type="radio" name="opcao" value="sim" checked="checked" />Sim
+			<input id="opcao" type="radio" name="opcao" value="nao" />Não
+			<label for="linguagem">Você quer aprender mais sobre:</label>
+			<input type="checkbox" name="html" />HTML
+			<input type="checkbox" name="css" />CSS
+			<textarea name="msg"></textarea>
+			<input type="submit" value="Enviar" />
+		</form>
+	</body>
+</html>
